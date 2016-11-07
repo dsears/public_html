@@ -1,7 +1,7 @@
 <script>
 bits = location.href.split('?').pop().split(';');
 html = [];
-html.push('<style>* { margin:0 padding:0 } body { margin:0; padding:0; text-align:center } table { padding:0px; margin:0 auto; width:100%; height:100% }</style>
+html.push('<style>* { margin:0 padding:0 } body { margin:0; padding:0; text-align:center } table { padding:0px; margin:0 auto; width:100%; height:100% }</style>');
 html.push('<meta http-equiv="refresh" content="' + bits[1] + '">');
 html.push('<table border=0 cellspacing=0 cellpadding=0>');
 html.push('<iframe src="' + decodeURIComponent(bits[0]) + '" width=100% height=100% marginwidth=0 marginheight=0 frameborder=0></iframe>');
